@@ -1,5 +1,5 @@
 async function translate(input) {
-    const response = await fetch("/translate", {
+    const response = await fetch("/https://fyp-backend-s8v1.onrender.com/translate", {
         method: "POST",
         headers: {
             "content-type": "application/json"
